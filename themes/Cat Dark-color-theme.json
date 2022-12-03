@@ -50,10 +50,7 @@
         "text.html.django meta.tag",
         "punctuation.definition.tag",
         "support.function.powershell",
-        "text.html meta.tag punctuation",
         "entity.name.function.powershell",
-        "text.html meta.tag string.quoted",
-        "text.html meta.tag string.unquoted",
         "text.xml entity.name.tag.localname",
         "text.html meta.tag entity.name.tag",
         "text.xml punctuation.definition.tag",
@@ -147,6 +144,7 @@
         "punctuation.separator.arguments.json",
         "punctuation.separator.element.json",
         "punctuation.separator.array.json",
+        "punctuation.separator.comma.js",
         "punctuation.terminator.statement.js",
         "punctuation.terminator.statement.ts",
         "punctuation.terminator.rule.css"
@@ -199,6 +197,7 @@
       "scope": [
         "beginning.punctuation.definition.quote.markdown",
         "text.html.markdown beginning.punctuation.definition.quote"
+        
       ],
       "settings": {
         "foreground": "#608B4E"
@@ -386,7 +385,6 @@
         "keyword.operator.sizeof.js.js",
         "keyword.control.import.python",
         "string.regexp keyword.operator",
-        "punctuation.separator.comma.js",
         "keyword.operator.logical.python",
         "constant.character.escape.python",
         "keyword.operator.expression.js.js",
