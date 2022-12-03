@@ -1,0 +1,21 @@
+{
+  "name": "cat-dark",
+  "displayName": "Cat Dark",
+  "description": "cool theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cat Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cat Dark-color-theme.json"
+      }
+    ]
+  }
+}
