@@ -3,8 +3,9 @@
   "displayName": "Cat Dark",
   "description": "cool theme",
   "repository": "https://github.com/cqb13/cat-dark",
+  "publisher": "cqb13",
   "author": "cqb13",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.73.0"
   },
