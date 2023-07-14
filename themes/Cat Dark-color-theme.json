@@ -74,6 +74,9 @@
       "scope": [
         "meta.selector",
         "entity.name.tag.css",
+        "entity.name.tag.less",
+        "entity.name.tag.scss",
+        "entity.name.tag.sass",
         "entity.other.attribute-name.scss",
         "entity.other.attribute-name.id.css",
         "entity.other.attribute-name.class.css",
@@ -82,7 +85,15 @@
         "entity.other.attribute-name.pseudo-class.css",
         "source.css.less entity.other.attribute-name.id",
         "entity.other.attribute-name.pseudo-element.css",
-        "entity.other.attribute-name.parent-selector.css"
+        "entity.other.attribute-name.parent-selector.css",
+        "support.constant.property-value.scss,support.constant.property-value.css",
+        "support.constant.color.w3c-standard-color-name.css,support.constant.color.w3c-standard-color-name.scss",
+        "source.css.scss entity.other.attribute-name",
+        "source.css.scss keyword.control.flow.scss",
+        "source.sass keyword.control.flow.sass",
+        "source.sass entity.other.attribute-name",
+        "source.scss entity.other.attribute-name",
+        "source.scss keyword.control.import.scss"
       ],
       "settings": {
         "foreground": "#D7BA7D"
@@ -147,7 +158,9 @@
         "punctuation.separator.comma.js",
         "punctuation.terminator.statement.js",
         "punctuation.terminator.statement.ts",
-        "punctuation.terminator.rule.css"
+        "punctuation.terminator.rule.css",
+        "source.sass",
+        "source.scss"
       ],
       "settings": {
         "foreground": "#A9B7C6"
@@ -197,7 +210,6 @@
       "scope": [
         "beginning.punctuation.definition.quote.markdown",
         "text.html.markdown beginning.punctuation.definition.quote"
-        
       ],
       "settings": {
         "foreground": "#608B4E"
@@ -302,7 +314,9 @@
         "meta.object.member variable.other.property.js",
         "text.xml entity.other.attribute-name.namespace",
         "meta.structure.dictionary support.type.property-name.json",
-        "support.variable.automatic variable.other.member.powershell"
+        "support.variable.automatic variable.other.member.powershell",
+        "source.sass",
+        "source.scss"
       ],
       "settings": {
         "foreground": "#9876AA"
@@ -677,7 +691,7 @@
         "meta.at-rule.import.css",
         "punctuation.separator.css",
         "meta.at-rule.font-face.css",
-        "punctuation.separator.list.comma.css"
+        "punctuation.separator.list.comma.css",
       ],
       "settings": {
         "foreground": "#B87800"
@@ -704,6 +718,7 @@
         "fontStyle": ""
       }
     },
+    
     {
       "scope": ["variable.other.less", "punctuation.definition.variable.less"],
       "settings": {
@@ -715,6 +730,7 @@
         "source.css.less constant.other.unicode-range.css",
         "source.css.less entity.other.attribute-name.class.mixin.css",
         "source.css.less meta.property-list.css meta.property-value.css entity.name.tag.css",
+        "source.css.less meta.property-list.css meta.property-value.css entity.other.attribute-name.class.mixin.css",
         "source.css.less meta.property-list.css meta.property-value.css constant.numeric.css"
       ],
       "settings": {
